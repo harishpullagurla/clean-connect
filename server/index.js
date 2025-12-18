@@ -19,7 +19,21 @@ const dashboardRoutes = require('./routes/dashboard');
 const app = express();
 
 // Middleware
-app.use(cors());
+// app.use(cors());
+const corsOptions = {
+  origin: [
+    "https://harishpullagurla.github.io",
+    "http://localhost:3000"
+  ],
+  methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+  allowedHeaders: ["Content-Type", "Authorization"],
+  credentials: true
+};
+
+// CORS must come BEFORE routes
+app.use(cors(corsOptions));
+app.options("*", cors(corsOptions));
+
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
