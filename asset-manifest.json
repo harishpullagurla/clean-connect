@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/clean-connect/static/css/main.54831f69.css",
+    "main.js": "/clean-connect/static/js/main.d371c2df.js",
+    "index.html": "/clean-connect/index.html",
+    "main.54831f69.css.map": "/clean-connect/static/css/main.54831f69.css.map",
+    "main.d371c2df.js.map": "/clean-connect/static/js/main.d371c2df.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.54831f69.css",
+    "static/js/main.d371c2df.js"
+  ]
+}
