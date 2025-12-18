@@ -1,0 +1,21 @@
+.App {
+  min-height: 100vh;
+  background-color: #F5F5F5;
+}
+
+
+.Toastify__toast--success {
+  background-color: #4CAF50 !important;
+}
+
+.Toastify__toast--error {
+  background-color: #f44336 !important;
+}
+
+.Toastify__toast--info {
+  background-color: #009688 !important;
+}
+
+.Toastify__toast--warning {
+  background-color: #ff9800 !important;
+}
